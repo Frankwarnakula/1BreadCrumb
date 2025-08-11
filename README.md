@@ -2,6 +2,9 @@
 
 A full-stack web application using ASP.NET Core (.NET 9) for the backend and React + TypeScript + Vite for the frontend.
 
+<img width="775" height="863" alt="image" src="https://github.com/user-attachments/assets/cbcbc821-7cbf-40e5-b026-c5c0facc6b25" />
+
+
 ---
 
 ## Prerequisites
