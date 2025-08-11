@@ -1,0 +1,62 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Others
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# User-specific files
+*.userprefs
+
+# ASP.NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# dotnet watch
+**/node_modules/
+
+# Azure Pipelines
+*.azure-pipelines.yml
+
+# Local history for Visual Studio
+.localhistory/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/

@@ -1,0 +1,227 @@
+﻿#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.library-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.library-table th, .library-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.library-table th:first-child,
+.library-table td:first-child {
+    text-align: left;
+    width: 320px;
+    max-width: 320px;
+    min-width: 200px;
+    word-break: break-word;
+}
+
+.search-bar {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.search-bar label {
+    margin-right: 0.5rem;
+}
+
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+}
+
+.pagination-controls button {
+    background: none;
+    border: 1px solid #888;
+    border-radius: 4px;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0 0.25rem;
+}
+
+.pagination-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.controls-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.search-bar-inline {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-inline label {
+    margin-right: 0.5rem;
+}
+
+.pagination-controls-inline {
+    display: flex;
+    align-items: center;
+}
+
+.pagination-controls-inline button {
+    background: none;
+    border: 1px solid #888;
+    border-radius: 4px;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0 0.25rem;
+}
+
+.pagination-controls-inline button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.add-book-btn {
+    position: absolute;
+    right: 0;
+    bottom: -3.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.add-book-btn:hover {
+    background: #005fa3;
+}
+
+.availability-cell {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.availability-cell > span {
+    margin-right: auto;
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    margin-left: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    padding: 0;
+    color: #555;
+    transition: color 0.2s;
+}
+
+.icon-btn:hover {
+    color: #0078d4;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    margin-left: 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.delete-btn:hover {
+    color: #d32f2f;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    min-width: 320px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.modal-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.modal-form input, .modal-form select {
+    margin-top: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.modal-actions button {
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-actions button:first-child {
+    background: #eee;
+    color: #333;
+}
+
+.modal-actions button:last-child {
+    background: #0078d4;
+    color: #fff;
+}
+
+.modal-actions button:last-child:hover {
+    background: #005fa3;
+}
